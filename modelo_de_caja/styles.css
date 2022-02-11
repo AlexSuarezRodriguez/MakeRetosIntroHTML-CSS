@@ -1,15 +1,11 @@
-.cajaOut{
-  padding-top: 25px;
-  padding-right: 20px;
-  padding-bottom: 55px;
-  padding-left: 10px;
+p{
+  padding: 30px;
   border: 2px solid red;
   margin:20px ;
-  height :50px;
-  width: 400px;
+  height :100px;
+  width: 500px;
 }
-.cajaIn{
-  margin: 0px;
-  padding: 0px;
+span{
+
   border: 2px solid green;
 }
