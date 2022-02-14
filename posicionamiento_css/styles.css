@@ -1,0 +1,54 @@
+.cabeza{
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  position: relative;
+}
+.ojo{
+  width: 100px;
+  height: 100px;
+  background-color: beige;
+  position: relative;
+  left: 300px;
+  top: 80px;
+}
+.pupila{
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  position: absolute;
+  right: 0px;
+  bottom: 37px;
+}
+.boca{
+  width: 150px;
+  height: 25px;
+  background-color: pink;
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+}
+.cuerpo{
+  width: 300px;
+  height: 550px;
+  background-color: black;
+  position: relative;
+}
+.brazo{
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  right: -100px;
+}
+.mensaje{
+  width: 400px;
+  height: 100px;
+  border: 3px dashed blue;
+  position: relative;
+  right: -550px;
+  top: -650px;
+  font-size: 35px;
+  text-align: center;
+}
