@@ -1,0 +1,69 @@
+.cabeza{
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  position: relative;
+  box-shadow: 20px 20px 30px 5px gray;
+  background-image: linear-gradient(pink,green) ;
+}
+.ojo{
+  width: 100px;
+  height: 100px;
+  background-color: beige;
+  position: relative;
+  left: 300px;
+  top: 80px;
+  background-image: linear-gradient(to left,rgb(170, 19, 45 )35%,rgb(16, 201, 214)25%,rgb(116, 185, 25)) ;
+}
+.pupila{
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  position: absolute;
+  right: 0px;
+  bottom: 37px;
+  background-image:radial-gradient(yellow,red);
+}
+.boca{
+  width: 150px;
+  height: 25px;
+  background-color: pink;
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+  background-image:radial-gradient(blue,violet);
+}
+.cuerpo{
+  width: 300px;
+  height: 550px;
+  background-color: black;
+  position: relative;
+  box-shadow: 20px 20px 30px 5px gray;
+  background-image:radial-gradient(rgba(130, 16, 206, 0.404),rgba(122, 15, 60, 0.384),rgb(255, 102, 0),rgb(150, 85, 85));
+
+}
+.brazo{
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  right: -100px;
+  box-shadow: 20px 20px 30px 5px gray;
+  background-image:radial-gradient(rgba(130, 16, 206, 0.404),rgba(122, 15, 60, 0.384));
+}
+.mensaje{
+  width: 400px;
+  height: 100px;
+  border: 3px dashed blue;
+  position: relative;
+  right: -550px;
+  top: -650px;
+  box-shadow: 20px 20px 30px 5px gray;
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 2px 2px 30px red;
+}
+h1{
+  margin: center;
+}
