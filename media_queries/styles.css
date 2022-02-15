@@ -1,0 +1,46 @@
+body{
+  background-color: black;
+  font-size: 26px;
+}
+div>p{
+  color: blue; 
+  position: relative;
+  top: 350px;
+  text-align: center;
+} 
+@media(min-width:768px){
+  body{
+    background-color: rgb(218, 19, 19);
+    font-size: 26px;
+  }
+  div>p{
+    color: rgb(21, 224, 197); 
+    position: relative;
+    top: 350px;
+    text-align: center;
+  } 
+}
+@media(min-width:992px){
+  body{
+    background-color: rgb(175, 218, 19);
+    font-size: 26px;
+  }
+  div>p{
+    color: rgb(166, 21, 224); 
+    position: relative;
+    top: 350px;
+    text-align: center;
+  } 
+}
+@media(min-width:1200){
+  body{
+    background-color: rgba(79, 160, 58, 0.623);
+    font-size: 26px;
+  }
+  div>p{
+    color: rgb(21, 133, 224); 
+    position: relative;
+    top: 350px;
+    text-align: center;
+  } 
+}
